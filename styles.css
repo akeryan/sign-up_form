@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    --left-padding: 50px;
+}
+
+body {
+    background-image: url("solarpunk.webp");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    height: 100vh;    
+}
+
+.quote-container {
+    padding-left: var(--left-padding);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.my-form input {
+    display: block;
+    font-size: 1.5rem;
+    width: 250px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    margin-right: 50px;
+}
+
+.my-form label {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.form-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}    
+
+.right-side-container {
+    box-sizing: border-box;
+    background-color: aquamarine;
+    width: 800px;
+    padding-top: 150px;
+}
+
+.form-content {
+    background-color: cadetblue;
+    padding: 20px var(--left-padding) 30px;
+    margin-bottom: 30px;
+}
+
+.my-form h2 {
+    margin-bottom: 20px;
+}
+
+.my-form button,
+.my-form + p {
+    margin-left: var(--left-padding);    
+}
+
+.my-form button {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    color: white;
+    background-color: blue;
+    padding: 15px 60px;
+    border: 1px solid green;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.my-form + p {
+    font-size: 1.2rem;
+}
+
