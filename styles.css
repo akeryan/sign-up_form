@@ -5,11 +5,21 @@
 }
 
 body {
-    background-image: url("solarpunk.webp");
+	font-family: Arial, Helvetica, sans-serif;
+    background-image: url("solarpunk.webp"), linear-gradient(90deg, #e8ebd8, #f0f1df, #eef1db);
     background-repeat: no-repeat;
+	height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: flex-end; 
+}
+
+.right-side-container {
+    box-sizing: border-box;
+    background-color: aquamarine;
+    max-width: 800px;
+    padding-top: 130px;
+    padding-bottom: 90px;
 }
 
 .form-inputs {
@@ -37,14 +47,6 @@ body {
     font-size: 0.9rem;
     text-transform: uppercase;
 }  
-
-.right-side-container {
-    box-sizing: border-box;
-    background-color: aquamarine;
-    width: 800px;
-    padding-top: 130px;
-    padding-bottom: 90px
-}
 
 .quote-container > p:first-of-type {
     margin-bottom: 30px
